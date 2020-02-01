@@ -1,0 +1,643 @@
+fileFormatVersion: 2
+guid: 4cf4ee265a0eca84c93f3a119adbed3f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4413723631335533954
+    second: robot_walking_centered_0
+  - first:
+      213: -8214415596587707403
+    second: robot_walking_centered_1
+  - first:
+      213: -5963073312299855065
+    second: robot_walking_centered_2
+  - first:
+      213: 4514857623488027042
+    second: robot_walking_centered_3
+  - first:
+      213: -2968042787845271927
+    second: robot_walking_centered_4
+  - first:
+      213: 6936698735978489288
+    second: robot_walking_centered_5
+  - first:
+      213: 3458450861712084819
+    second: robot_walking_centered_6
+  - first:
+      213: 6661686365079722848
+    second: robot_walking_centered_7
+  - first:
+      213: -8046203890762800287
+    second: robot_walking_centered_8
+  - first:
+      213: -5897001262757545961
+    second: robot_walking_centered_9
+  - first:
+      213: 5650179875210375327
+    second: robot_walking_centered_10
+  - first:
+      213: -1137258950645566944
+    second: robot_walking_centered_11
+  - first:
+      213: -4435085550471903991
+    second: robot_walking_centered_12
+  - first:
+      213: 7095921254072329284
+    second: robot_walking_centered_13
+  - first:
+      213: 8175629954367501382
+    second: robot_walking_centered_14
+  - first:
+      213: 5820444622930335545
+    second: robot_walking_centered_15
+  - first:
+      213: -5515149241910163095
+    second: robot_walking_centered_16
+  - first:
+      213: -8387702774627831415
+    second: robot_walking_centered_17
+  - first:
+      213: -5075249784245406254
+    second: robot_walking_centered_18
+  - first:
+      213: -6845439860039919525
+    second: robot_walking_centered_19
+  - first:
+      213: -6022022754161735441
+    second: robot_walking_centered_20
+  - first:
+      213: 8852574285550485541
+    second: robot_walking_centered_21
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 220
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robot_walking_centered_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff17593d659325446bf6f7135d793944
+      internalID: 4413723631335533954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382e5ca78e40a51448900986f4a6e1b8
+      internalID: -8214415596587707403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_2
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bce0a7724aef440b9c64db02f69bff
+      internalID: -5963073312299855065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_3
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65840c349e71804a933b5bbc2e74396
+      internalID: 4514857623488027042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_4
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adfa8ca643ffa648b2f81c995d61e4d
+      internalID: -2968042787845271927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_5
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fa3c8cf9ea96c439b565fbf06b2387
+      internalID: 6936698735978489288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_6
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63df6ffd03880b54aa1839ad9f2bff3e
+      internalID: 3458450861712084819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_7
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9674a8af2cd09714099ba3bf52fbcc91
+      internalID: 6661686365079722848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_8
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59668b68277f5914590e49c4a0cfb5f6
+      internalID: -8046203890762800287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_9
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e32e4504683dd4d885bf14904b3766
+      internalID: -5897001262757545961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_10
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843b463e942cb4347b8d5abbf762469c
+      internalID: 5650179875210375327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_11
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0218e7438e6a1714cb4cfcce7321615f
+      internalID: -1137258950645566944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_12
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5557c462779953147a76d02f7b3b8719
+      internalID: -4435085550471903991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_13
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b34b132b83d07418672d51d6e476e4
+      internalID: 7095921254072329284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_14
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af088b88c6340c46a90ec55e4e680d4
+      internalID: 8175629954367501382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_15
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbbb011b2e60af4d9ac0e17926a720e
+      internalID: 5820444622930335545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_16
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9c36aa4860191458efc4f521e11da9
+      internalID: -5515149241910163095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_17
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83cb0ac1e629234ca404fe72da5f27a
+      internalID: -8387702774627831415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_18
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f31f01b35224a42812eb1a9cc47dc5
+      internalID: -5075249784245406254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_19
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2132183639fbb4fb300054ec89517f
+      internalID: -6845439860039919525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_20
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712429b010d8d014f917124bc46d0bf5
+      internalID: -6022022754161735441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_centered_21
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d141ab9bef145794fb64049094a94e59
+      internalID: 8852574285550485541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f100b04a3dbb0e147a75fb459862ae51
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

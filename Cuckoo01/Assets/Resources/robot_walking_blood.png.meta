@@ -1,0 +1,643 @@
+fileFormatVersion: 2
+guid: c976bb2389805d149a1ce580608340e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2575639347745538244
+    second: robot_walking_blood_0
+  - first:
+      213: 4994584523984881240
+    second: robot_walking_blood_1
+  - first:
+      213: 1851072058476792538
+    second: robot_walking_blood_2
+  - first:
+      213: 4271696322940687690
+    second: robot_walking_blood_3
+  - first:
+      213: -8918010251273653869
+    second: robot_walking_blood_4
+  - first:
+      213: 5633890568128312252
+    second: robot_walking_blood_5
+  - first:
+      213: -508958321353307578
+    second: robot_walking_blood_6
+  - first:
+      213: 3939342494723947748
+    second: robot_walking_blood_7
+  - first:
+      213: -4420656315210945224
+    second: robot_walking_blood_8
+  - first:
+      213: 4049059586564740732
+    second: robot_walking_blood_9
+  - first:
+      213: -1433981827856807252
+    second: robot_walking_blood_10
+  - first:
+      213: -7500004909234336628
+    second: robot_walking_blood_11
+  - first:
+      213: 4201332881901178305
+    second: robot_walking_blood_12
+  - first:
+      213: -3459681578587158166
+    second: robot_walking_blood_13
+  - first:
+      213: 833349669692691521
+    second: robot_walking_blood_14
+  - first:
+      213: -2600384407831916804
+    second: robot_walking_blood_15
+  - first:
+      213: -1103187180969092325
+    second: robot_walking_blood_16
+  - first:
+      213: 7882414371829542584
+    second: robot_walking_blood_17
+  - first:
+      213: 1068608257525479066
+    second: robot_walking_blood_18
+  - first:
+      213: 4118955803644775160
+    second: robot_walking_blood_19
+  - first:
+      213: 5011757716564260782
+    second: robot_walking_blood_20
+  - first:
+      213: -4847509881384919216
+    second: robot_walking_blood_21
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robot_walking_blood_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7efec0df453d9f46a39c39f5b0366ed
+      internalID: -2575639347745538244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cee0d15bb33e5488ac0b9421e2f555
+      internalID: 4994584523984881240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_2
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0870e309dab3cef48a137097ed90e9cb
+      internalID: 1851072058476792538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_3
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab44d3b70e3e1640932126d1d3405b4
+      internalID: 4271696322940687690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_4
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d66acddb8a092c47a8accfa3cef9b58
+      internalID: -8918010251273653869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_5
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effe1f9bf44ef6540817d631fdff5678
+      internalID: 5633890568128312252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_6
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2a73fdabdc78c4ba2f370c393738de
+      internalID: -508958321353307578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_7
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ea381969d83fd4bbb71cacc1f2f4c7
+      internalID: 3939342494723947748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_8
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42a41f49be287e4ab5204719feb3692
+      internalID: -4420656315210945224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_9
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72672875fdf582e49b91afdac38a4e55
+      internalID: 4049059586564740732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_10
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac11ea58ef19e14fa824449f747b6c8
+      internalID: -1433981827856807252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_11
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001431868cd3b324c9250cabc153640c
+      internalID: -7500004909234336628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_12
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10dd5848a66aa541bc329a482611d4d
+      internalID: 4201332881901178305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_13
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fa5a95c207a33418fd32de8930bd39
+      internalID: -3459681578587158166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_14
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13c736e9db453d4aa84f392717d5a77
+      internalID: 833349669692691521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_15
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac9b946d3ec91649816a2294374a1ef
+      internalID: -2600384407831916804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_16
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c073f6f0071b4104f9b747622ddf0281
+      internalID: -1103187180969092325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_17
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e339201d94d32946bab061625fa6b50
+      internalID: 7882414371829542584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_18
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330b4648db2d3224e937246b00c61864
+      internalID: 1068608257525479066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_19
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be06cc050ebcd34bb1383a12e04f35e
+      internalID: 4118955803644775160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_20
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5246edecdce1524aaf5e7911ad2383b
+      internalID: 5011757716564260782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_walking_blood_21
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 0
+        width: 220
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669ac2b057e8dfa4a83a750b9956f0bd
+      internalID: -4847509881384919216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0fcc700b75d14f043a976c2686e1ac11
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
