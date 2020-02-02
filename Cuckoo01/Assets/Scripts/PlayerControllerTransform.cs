@@ -20,17 +20,39 @@ public class PlayerControllerTransform : MonoBehaviour
         jump = new Vector3(0.0f, 2.0f, 0.0f);
     }
 
+    void OnCollisionEnter(Collision col)
+    {
+#if false
+        if (col.gameObject.tag == "Enemy")
+        {
+            Debug.Log("OnCollisionEnter: " + gameObject.name);
+            Debug.Log("Hit");
+            //enemyHit = true;
+            //other.gameObject.GetComponent<EnemyHealthScript>().EnemyTakeDamage();
+        }
+#endif
+
+        if (col.gameObject.tag == "Ground")
+        {
+            Debug.Log("OnCollisionEnter: " + gameObject.name);
+            isGrounded = true;
+            //enemyHit = true;
+            //other.gameObject.GetComponent<EnemyHealthScript>().EnemyTakeDamage();
+        }
+    }
+
+#if false
     void OnCollisionStay()
     {
         isGrounded = true;
     }
+#endif
 
     // Update is called once per frame
     void Update()
     {
         float moveAxis = Input.GetAxis(moveInputAxis);
         //transform.Translate(Vector3.right * moveAxis * moveSpeed);
-        //rb.AddForce(transform.right * moveAxis * moveSpeed * Time.deltaTime, ForceMode.Force);
         rb.AddForce(transform.right * moveAxis * moveSpeed, ForceMode.Force);
 
 
