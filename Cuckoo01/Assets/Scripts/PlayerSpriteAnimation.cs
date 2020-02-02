@@ -60,7 +60,7 @@ public class PlayerSpriteAnimation : MonoBehaviour
         else // animate based off of player movement
         {
             float xDiff = transform.position.x - positionLast.x;
-            Debug.Log($"xDiff: {xDiff}");
+            //Debug.Log($"xDiff: {xDiff}");
 
             if (xDiff > 0) // right direction
             {
