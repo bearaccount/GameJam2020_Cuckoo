@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class PlayerSpriteAnimation : MonoBehaviour
+public class GenericSpriteAnimation : MonoBehaviour
 {
     public GameObject player;
     public bool loop;
@@ -9,11 +9,8 @@ public class PlayerSpriteAnimation : MonoBehaviour
     public float moveAmountThreshold = 0.1f;
 
     //The file location of the sprites within the resources folder
-    //public string location;
+    public string location;
     private SpriteRenderer spr;
-    private Sprite[] spritesRun;
-    private Sprite[] spritesJump;
-    private Sprite[] spritesDie;
     private Sprite[] sprites;
     private int frame = 0;
     private float deltaTime = 0;
@@ -26,24 +23,15 @@ public class PlayerSpriteAnimation : MonoBehaviour
     private string moveInputAxis = "Horizontal";
     private Vector3 positionLast;
 
-    private bool isGrounded;
-
     //private Rigidbody rigidBody;
 
     // Use this for initialization
     void Start()
     {
         spr = GetComponent<SpriteRenderer>();
-
-        spritesRun = Resources.LoadAll<Sprite>("robot_walking_blood_hr");
-        Debug.Log($"spritesRun Length: {spritesRun.Length}");
-
-        spritesJump = Resources.LoadAll<Sprite>("robot_jump");
-        Debug.Log($"spritesJump Length: {spritesJump.Length}");
-
+        sprites = Resources.LoadAll<Sprite>(location);
         positionLast = transform.position;
-
-        
+        Debug.Log($"Location: {location} with length: {sprites.Length}");
     }
 
     // Update is called once per frame
@@ -51,17 +39,6 @@ public class PlayerSpriteAnimation : MonoBehaviour
     {
         //Keep track of the time that has passed
         deltaTime += Time.deltaTime;
-
-        isGrounded = player.GetComponent<PlayerControllerTransform>().isGrounded;
-
-        if (isGrounded)
-        {
-            sprites = spritesRun;
-        }
-        else
-        {
-            sprites = spritesJump;
-        }
 
         if (FixedAnimate)
         {
@@ -92,7 +69,7 @@ public class PlayerSpriteAnimation : MonoBehaviour
                 else
                     spr.flipX = true;
             }
-            else if(xDiff < 0) // left direction
+            else if (xDiff < 0) // left direction
             {
                 if (facingRight == true)
                     spr.flipX = true;
@@ -137,7 +114,6 @@ public class PlayerSpriteAnimation : MonoBehaviour
             }
         
 #endif
-
         }
         //Animate sprite with selected frame
         spr.sprite = sprites[frame];
