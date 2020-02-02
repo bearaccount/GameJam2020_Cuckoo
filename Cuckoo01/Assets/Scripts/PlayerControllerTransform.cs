@@ -13,6 +13,8 @@ public class PlayerControllerTransform : MonoBehaviour
     private Rigidbody rb;
     public bool isGrounded;
 
+    public bool isFinished = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,9 +34,17 @@ public class PlayerControllerTransform : MonoBehaviour
         }
 #endif
 
+        if (col.gameObject.tag == "Finish")
+        {
+            Debug.Log("OnCollisionEnter finish: " + gameObject.name);
+            isFinished = true;
+            //enemyHit = true;
+            //other.gameObject.GetComponent<EnemyHealthScript>().EnemyTakeDamage();
+        }
+
         if (col.gameObject.tag == "Ground")
         {
-            Debug.Log("OnCollisionEnter: " + gameObject.name);
+            //Debug.Log("OnCollisionEnter: " + gameObject.name);
             isGrounded = true;
             //enemyHit = true;
             //other.gameObject.GetComponent<EnemyHealthScript>().EnemyTakeDamage();

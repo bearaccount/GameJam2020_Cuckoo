@@ -26,7 +26,8 @@ public class PlayerSpriteAnimation : MonoBehaviour
     private string moveInputAxis = "Horizontal";
     private Vector3 positionLast;
 
-    private bool isGrounded;
+    private bool isGrounded = true;
+    private bool isFinished = false;
 
     //private Rigidbody rigidBody;
 
@@ -41,6 +42,9 @@ public class PlayerSpriteAnimation : MonoBehaviour
         spritesJump = Resources.LoadAll<Sprite>("robot_jump");
         Debug.Log($"spritesJump Length: {spritesJump.Length}");
 
+        spritesDie = Resources.LoadAll<Sprite>("robot_die");
+        Debug.Log($"spritesDie Length: {spritesDie.Length}");
+
         positionLast = transform.position;
 
         
@@ -54,7 +58,13 @@ public class PlayerSpriteAnimation : MonoBehaviour
 
         isGrounded = player.GetComponent<PlayerControllerTransform>().isGrounded;
 
-        if (isGrounded)
+        isFinished = player.GetComponent<PlayerControllerTransform>().isFinished;
+
+        if (isFinished)
+        {
+            sprites = spritesDie;
+        }
+        else if (isGrounded)
         {
             sprites = spritesRun;
         }
